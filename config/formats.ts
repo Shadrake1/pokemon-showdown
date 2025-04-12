@@ -264,6 +264,48 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod',
 		],
 	},
+	{
+		name: "[Gen 6] Multi Battle",
+		mod: 'gen6',
+		gameType: 'multi',
+		rated: false,
+		ruleset: [
+			'Max Team Size = 4',
+			'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod',
+		],
+	},
+	{
+		name: "[Gen 6] Multi Random Battle",
+		mod: 'gen6',
+		team: 'random',
+		gameType: 'multi',
+		rated: false,
+		ruleset: [
+			'Max Team Size = 4',
+			'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod',
+		],
+	},
+	{
+		name: "[Gen 4] Multi Battle",
+		mod: 'gen4',
+		gameType: 'multi',
+		rated: false,
+		ruleset: [
+			'Max Team Size = 4',
+			'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod',
+		],
+	},
+	{
+		name: "[Gen 4] Multi Random Battle",
+		mod: 'gen4',
+		team: 'random',
+		gameType: 'multi',
+		rated: false,
+		ruleset: [
+			'Max Team Size = 4',
+			'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod',
+		],
+	},
 
 	// S/V Doubles
 	///////////////////////////////////////////////////////////////////
