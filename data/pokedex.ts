@@ -19571,6 +19571,20 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 		gen: 9,
 	},
+	// Shadrake's additions
+	neurosama: {
+		num: -1000,
+		name: "Neuro-sama",
+		types: ["Electric"],
+		baseStats: { hp: 65, atk: 75, def: 75, spa: 115, spd: 85, spe: 99 },
+		abilities: { 0: "Download", 1: "Competitive", H: "Soul-Heart" },
+		heightm: 1.43,
+		weightkg: 0.01,
+		color: "Yellow",
+		eggGroups: ["Field"],
+		gen: 4,
+	},
+
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,
