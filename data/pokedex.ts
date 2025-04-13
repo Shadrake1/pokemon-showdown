@@ -19582,7 +19582,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.01,
 		color: "Yellow",
 		eggGroups: ["Field"],
-		gen: 4,
+		gen: 9,
 	},
 	evilneuro: {
 		num: -1001,

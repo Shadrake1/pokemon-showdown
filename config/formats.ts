@@ -27,7 +27,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Custommons",
-		mod: 'gen9',
+		mod: 'gen9dlc1',
 		ruleset: ['Standard'],
 		banlist: [],
 	},
