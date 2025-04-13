@@ -99829,7 +99829,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			takeheart: ["9L5"],
 		},
 	},
-},
 	evilneuro: {
 		learnset: {
 			harpooning: ["4L5"],
