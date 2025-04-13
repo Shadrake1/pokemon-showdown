@@ -38,8 +38,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fairy",
 		contestType: "Beautiful",
 	},
-	spiderweb: {
-		num: 169,
+	harpooning: {
+		num: 998,
 		accuracy: 75,
 		basePower: 105,
 		category: "Physical",
