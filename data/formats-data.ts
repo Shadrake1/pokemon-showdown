@@ -5971,9 +5971,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	neurosama: {
-		isNonstandard: "Custom",
+		isNonstandard: "CAP",
 		unobtainable: false,
-		tier: "Vtuber",
+		tier: "CAP",
 	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",
