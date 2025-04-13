@@ -18,6 +18,26 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	multiheart: {
+		num: 999,
+		accuracy: 100,
+		basePower: 20,
+		category: "Special",
+		name: "Multi-Heart",
+		pp: 16,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		multihit: [1, 7],
+		secondary: {
+			chance: 50,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Fairy",
+		contestType: "Beautiful",
+	},
 	absorb: {
 		num: 71,
 		accuracy: 100,

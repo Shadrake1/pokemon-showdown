@@ -99776,6 +99776,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	neurosama: {
 		learnset: {
+			multiheart: ["4L5"],
 			thundershock: ["4L5"],
 			acupressure: ["4L5"],
 			assurance: ["4L5"],
