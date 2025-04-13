@@ -19584,6 +19584,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 		gen: 4,
 	},
+	evilneuro: {
+		num: -1001,
+		name: "Evil Neuro",
+		types: ["Electric", "Dark"],
+		baseStats: { hp: 80, atk: 125, def: 55, spa: 85, spd: 65, spe: 99 },
+		abilities: { 0: "Download", 1: "Dark Aura", H: "Full Metal Body" },
+		heightm: 1.43,
+		weightkg: 0.01,
+		color: "Red",
+		eggGroups: ["Field"],
+		gen: 4,
+	},
 
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
