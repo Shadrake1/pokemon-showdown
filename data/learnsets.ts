@@ -99835,6 +99835,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			suckerpunch: ["4L5"],
 			drillrun: ["7L5"],
 			hypervoice: ["4L5"],
+			knockoff: ["4L5"],
 			fakeout: ["4L5"],
 			headbutt: ["4L5"],
 			thundershock: ["4L5"],
