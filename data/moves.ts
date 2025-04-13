@@ -41,7 +41,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	harpooning: {
 		num: 998,
 		accuracy: 75,
-		basePower: 105,
+		basePower: 95,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Harpooning",
