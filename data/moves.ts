@@ -38,6 +38,24 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fairy",
 		contestType: "Beautiful",
 	},
+	spiderweb: {
+		num: 169,
+		accuracy: 75,
+		basePower: 105,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Harpooning",
+		pp: 16,
+		priority: 0,
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		onHit(target, source, move) {
+			return target.addVolatile('trapped', source, move, 'trapper');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Clever",
+	},
 	absorb: {
 		num: 71,
 		accuracy: 100,
