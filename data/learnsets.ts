@@ -99776,7 +99776,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	neurosama: {
 		learnset: {
-			multiheart: ["4L5"],
+			multiheart: ["9L5"],
 			thundershock: ["9L5"],
 			acupressure: ["4L5"],
 			assurance: ["4L5"],
@@ -99823,10 +99823,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flatter: ["5L5"],
 			roleplay: ["5L5"],
 			signalbeam: ["4L5"],
-			taunt: ["4L5"],
-			torment: ["4L5"],
-			powertrip: ["7L5"],
-			takeheart: ["9L5"],
+			taunt: ["4M"],
+			torment: ["4T"],
+			powertrip: ["9M"],
+			takeheart: ["9T"],
 		},
 	},
 	evilneuro: {
