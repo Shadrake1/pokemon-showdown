@@ -56,6 +56,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Dark",
 		contestType: "Clever",
 	},
+	harpoonstorm: {
+		num: 997,
+		accuracy: 90,
+		basePower: 130,
+		category: "Physical",
+		name: "Harpoon Storm",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		self: {
+			boosts: {
+				atk: -2,
+			},
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Dark",
+		contestType: "Beautiful",
+	},
 	absorb: {
 		num: 71,
 		accuracy: 100,

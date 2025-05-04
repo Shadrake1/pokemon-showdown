@@ -2236,23 +2236,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 103,
 	},
 	leafguard: {
-		onSetStatus(status, target, source, effect) {
-			if (['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
-				if ((effect as Move)?.status) {
-					this.add('-immune', target, '[from] ability: Leaf Guard');
-				}
-				return false;
+		onModifySpe(def, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(2);
 			}
 		},
-		onTryAddVolatile(status, target) {
-			if (status.id === 'yawn' && ['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
-				this.add('-immune', target, '[from] ability: Leaf Guard');
-				return null;
-			}
-		},
-		flags: { breakable: 1 },
+		flags: {},
 		name: "Leaf Guard",
-		rating: 0.5,
+		rating: 3,
 		num: 102,
 	},
 	levitate: {

@@ -19,6 +19,25 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1881,
 		gen: 9,
 	},
+	spiderpot: {
+		name: "Spider Pot",
+		spritenum: 743,
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (user.baseSpecies.num === -1016 && (move.type === 'Poison')) {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (source?.baseSpecies.num === -1016 || pokemon.baseSpecies.num === -1016) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Haachama",
+		itemUser: ["Haachama"],
+		num: 2000,
+	},
 	abomasite: {
 		name: "Abomasite",
 		spritenum: 575,
