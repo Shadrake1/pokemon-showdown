@@ -19721,7 +19721,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Normal"],
 		gender: "F",
 		baseStats: { hp: 58, atk: 59, def: 63, spa: 50, spd: 70, spe: 111 },
-		abilities: { 0: " ", 1: " ", H: " " }, //maybe some stupidly good ability like Magic Guard?
+		abilities: { 0: "Cute Charm", 1: " ", H: " " }, //maybe some stupidly good ability like Magic Guard?
 		heightm: 1.00,
 		weightkg: 30.00,
 		color: "White",
@@ -19732,7 +19732,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Ghost"],
 		gender: "F",
 		baseStats: { hp: 70, atk: 145, def: 80, spa: 80, spd: 70, spe: 75 },
-		abilities: { 0: "Sharpness", 1: " ", H: " " },
+		abilities: { 0: "Sharpness", 1: "Aftermath", H: "Justified" },//infiltrator? Mold Breaker? Punk Rock?
 		heightm: 1.60,
 		weightkg: 60.00,
 		color: "Red",
@@ -19799,22 +19799,55 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Takanashi Kiara",
 		types: ["Fire"],
 		gender: "F",
-		baseStats: { hp: 115, atk: 111, def: 75, spa: 99, spd: 60, spe: 70 },
+		baseStats: { hp: 115, atk: 101, def: 75, spa: 99, spd: 60, spe: 70 },
 		abilities: { 0: "Regenerator", 1: "Flame Body", H: "Drought" },
 		heightm: 1.50,
 		weightkg: 90.05,
 		color: "Purple",
 	},
 	minikomew: {
-		num: -1020,
+		num: -1021,
 		name: "MinikoMew",
 		types: ["Normal"],
 		gender: "F",
-		baseStats: { hp: 70, atk: 80, def: 70, spa: 110, spd: 70, spe: 110 },
+		baseStats: { hp: 70, atk: 80, def: 70, spa: 110, spd: 70, spe: 100 },
+		abilities: { 0: "Adaptability", 1: "Tinted Lens", H: "Costar" },
+		heightm: 1.10,
+		weightkg: 45.00,
+		color: "Yellow",
+	},
+	toma: {
+		num: -1022,
+		name: "Toma",
+		types: ["Fighting", "Grass"],
+		gender: "F",
+		baseStats: { hp: 70, atk: 80, def: 70, spa: 110, spd: 70, spe: 100 }, //not determined yet
 		abilities: { 0: " ", 1: " ", H: " " },
 		heightm: 1.10,
 		weightkg: 45.00,
 		color: "Yellow",
+	},
+	sana: {
+		num: -1023,
+		name: "Tsukomo Sana",
+		types: ["Psychic", "Rock"],
+		gender: "F",
+		baseStats: { hp: 100, atk: 65, def: 110, spa: 95, spd: 140, spe: 25 },
+		abilities: { 0: "Gravitational Force", 1: "Pressure", H: "" }, //Gravitational force, summons gravity on switch-in
+		heightm: 500.00,
+		weightkg: 2000.00,
+		color: "Purple",
+	},
+	kronii: {
+		num: -1024,
+		name: "Ouro Kronii",
+		types: ["Psychic", "Steel"],
+		gender: "F",
+		baseStats: { hp: 80, atk: 65, def: 80, spa: 140, spd: 100, spe: 70 },
+		abilities: { 0: "Temporal Force", 1: "Pressure", H: "" }, //Gravitational force, summons gravity on switch-in
+		heightm: 1.70,
+		weightkg: 60.00,
+		color: "Blue",
 	},
 
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
