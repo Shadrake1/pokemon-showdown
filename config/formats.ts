@@ -1609,11 +1609,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			} else {
 				set.ability = abilities[0].id;
 			}
-			if (abilities.some(abil => !Object.values(species.abilities).map(this.toID).includes(abil.id)) &&
-				this.ruleTable.has('obtainableabilities')
-			) {
-				if (set.ability !== 'noability') return [`${set.species} has illegal abilities.`];
-			}
 			if (requiredAbility && !abilities.map(a => a.id).includes(this.toID(requiredAbility))) {
 				return [`${set.species} requires ${requiredAbility} on its set.`];
 			}
@@ -3243,7 +3238,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				return [`${set.name} may not use ${ability.name} as both a trademark and one of its moves simultaneously.`];
 			}
 			const customRules = this.format.customRules || [];
-			if (!customRules.includes('!obtainableabilities')) customRules.push('!obtainableabilities');
 			if (!customRules.includes('+noability')) customRules.push('+noability');
 
 			const TeamValidator: typeof import('../sim/team-validator').TeamValidator =
