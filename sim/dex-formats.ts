@@ -883,7 +883,7 @@ export class DexFormats {
 				const repealDepth = repeals!.get(ruleSpec.slice(1));
 				if (repealDepth === undefined) throw new Error(`Multiple "${ruleSpec}" rules in ${format.name}`);
 				if (repealDepth === depth && !noWarn) {
-					throw new Error(`Rule "${ruleSpec}" did nothing because "${ruleSpec.slice(1)}" is not in effect`);
+					console.warn(`Rule "${ruleSpec}" did nothing because "${ruleSpec.slice(1)}" is not in effect`);
 				}
 				if (repealDepth === -depth) repeals!.delete(ruleSpec.slice(1));
 				continue;
