@@ -19,6 +19,33 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// Vtuber Formats
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Vtuber Formats",
+		column: 1,
+	},
+	{
+		name: "[Custom] Vtuber OU",
+		mod: 'gen9',
+		ruleset: ['Standard', '+Custom'],
+		banlist: [],
+	},
+
+	// Other Custom Formats
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Other Custom Formats",
+		column: 1,
+	},
+	{
+		name: "[Custom] Other OU",
+		mod: 'gen9',
+		ruleset: ['Standard', '+Custom'],
+		banlist: [],
+	},
 
 ///////////////////////////////////////////////////////////////
 
