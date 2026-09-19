@@ -6398,6 +6398,26 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
+	minatoaqua: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	zentreya: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	vedal: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	neuropede: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	bao: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
 
 //not vtubers
 	sixln: {

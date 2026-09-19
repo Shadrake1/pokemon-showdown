@@ -19,8 +19,8 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
-	// S/V Singles
-	///////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////
 
 	{
 		section: "S/V Singles",
