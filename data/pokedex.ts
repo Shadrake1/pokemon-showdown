@@ -21103,7 +21103,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	// Shadrake's additions
 	neurosama: { //by Shadrake
-		num: 10000,
+		num: 18000,
 		name: "Neuro-sama",
 		types: ["Electric"],
 		gender: "F",
@@ -21494,7 +21494,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         types: ["Normal"],
         gender: "F",
         baseStats: { hp: 70, atk: 85, def: 70, spa: 95, spd: 80, spe: 90 },
-        abilities: { 0: "Klutz", 1: "", H: " " },
+        abilities: { 0: "Klutz", 1: " ", H: " " },
         heightm: 1.2,
         weightkg: 33.27,
 	},
@@ -21507,6 +21507,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		abilities: { 0: "Shell Armor", 1: " ", H: " " },
 		heightm: 0.30,
 		weightkg: 5.1,
+	},
+	neuropede: {
+		num: 10038,
+		name: "Neuropede",
+		types: ["Bug"],
+		gender: "M",
+		baseStats: { hp: 80, atk: 120, def: 120, spa: 56, spd: 59, spe: 77 },
+		abilities: { 0: "Battle Armor", 1: "Compound Eyes", H: " " },
+		heightm: 3.30,
+		weightkg: 200.1,
 	},
 //note: make Anny's orange a held item. Do the same with other Vtuber's apparel
 
