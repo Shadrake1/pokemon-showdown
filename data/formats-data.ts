@@ -6383,7 +6383,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	crelly: {
 		tier: "Vtuber",
 	},
-	shroomimi: {
+	shoomimi: {
 		tier: "Vtuber",
 	},
 	amanekanata: {
