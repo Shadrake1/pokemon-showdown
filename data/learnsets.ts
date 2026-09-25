@@ -102534,6 +102534,30 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
+	kokonuts: {
+		learnset: {
+
+
+		},
+	},
+	crelly: {
+		learnset: {
+
+
+		},
+	},
+	shroomimi: {
+		learnset: {
+
+
+		},
+	},
+	amanekanata: {
+		learnset: {
+
+
+		},
+	},
 
 //not vtubers
 	shoppingcart: {

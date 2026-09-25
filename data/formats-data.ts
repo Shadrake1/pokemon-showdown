@@ -6377,6 +6377,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	bao: {
 		tier: "Vtuber",
 	},
+	kokonuts: {
+		tier: "Vtuber",
+	},
+	crelly: {
+		tier: "Vtuber",
+	},
+	shroomimi: {
+		tier: "Vtuber",
+	},
+	amanekanata: {
+		tier: "Vtuber",
+	},
 
 //not vtubers
 	sixln: {

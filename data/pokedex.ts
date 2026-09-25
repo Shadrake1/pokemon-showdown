@@ -21479,7 +21479,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 43.27,
     },
 	zentreya: {
-        num: 10036,
+        num: 10037,
         name: "Zentreya",
         types: ["Steel", "Dragon"],
         gender: "F",
@@ -21489,7 +21489,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 143.27,
     },
 	minatoaqua: {
-        num: 10036,
+        num: 10038,
         name: "Minato Aqua",
         types: ["Normal"],
         gender: "F",
@@ -21499,7 +21499,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 33.27,
 	},
 	vedal: {
-		num: 10037,
+		num: 10039,
 		name: "Vedal",
 		types: ["Normal"],
 		gender: "M",
@@ -21509,7 +21509,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.1,
 	},
 	neuropede: {
-		num: 10038,
+		num: 10040,
 		name: "Neuropede",
 		types: ["Bug"],
 		gender: "F",
@@ -21519,8 +21519,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 200.1,
 	},
 	kokonuts: {
-        num: 10036,
-        name: "Zentreya",
+        num: 10041,
+        name: "Kokonuts",
         types: ["Steel", "Fighting"],
         gender: "F",
         baseStats: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 },
@@ -21529,7 +21529,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 83.0,
     },
 	crelly: {
-        num: 10036,
+        num: 10042,
         name: "Crelly",
         types: ["Poison"],
         gender: "F",
@@ -21539,7 +21539,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 83.0,
     },
 	shroomimi: {
-        num: 10036,
+        num: 10043,
         name: "Shroomimi",
         types: ["Psychic"],
         gender: "F",
@@ -21547,7 +21547,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         abilities: { 0: " ", 1: " ", H: " " },
         heightm: 1.33,
         weightkg: 63.0,
-    },
+	},
+	amanekanata: {
+		num: 10044,
+		name: "Amane Kanata",
+		types: ["Flying"],
+		gender: "F",
+		baseStats: { hp: 60, atk: 121, def: 80, spa: 105, spd: 75, spe: 81 },
+		abilities: { 0: " ", 1: " ", H: " " },
+		heightm: 1.33,
+		weightkg: 63.0,
+	},
+
 //note: make Anny's orange a held item. Do the same with other Vtuber's apparel
 
 // not vtubers
