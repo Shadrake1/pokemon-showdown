@@ -21448,7 +21448,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         heightm: 1.40,
         weightkg: 30.16,
     },
-	megalodonvt: {
+	megalodon: {
         num: 10033,
         name: "Megalodon",
         types: ["Water", "Steel"], //Steel? Research
@@ -21513,7 +21513,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         name: "Kokonuts",
         types: ["Steel", "Fighting"],
         gender: "F",
-        baseStats: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 },
+        baseStats: { hp: 63, atk: 118, def: 55, spa: 80, spd: 77, spe: 111 },
         abilities: { 0: " ", 1: " ", H: " " },
         heightm: 1.63,
         weightkg: 83.0,
@@ -21523,7 +21523,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         name: "Crelly",
         types: ["Poison"],
         gender: "F",
-        baseStats: { hp: 100, atk: 86, def: 85, spa: 72, spd: 40, spe: 67 },
+        baseStats: { hp: 100, atk: 86, def: 85, spa: 102, spd: 40, spe: 67 },
         abilities: { 0: "Stench", 1: " Poison Touch", H: " Liquid Ooze" },
         heightm: 1.43,
         weightkg: 83.0,
@@ -21533,7 +21533,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         name: "Shoomimi",
         types: ["Psychic"],
         gender: "F",
-        baseStats: { hp: 90, atk: 66, def: 74, spa: 115, spd: 90, spe: 85 },
+        baseStats: { hp: 50, atk: 66, def: 84, spa: 105, spd: 90, spe: 85 },
         abilities: { 0: " ", 1: " ", H: " " },
         heightm: 1.33,
         weightkg: 63.0,
@@ -21543,12 +21543,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Amane Kanata",
 		types: ["Flying"],
 		gender: "F",
-		baseStats: { hp: 60, atk: 121, def: 73, spa: 105, spd: 75, spe: 81 },
+		baseStats: { hp: 60, atk: 111, def: 73, spa: 105, spd: 75, spe: 81 },
 		abilities: { 0: " ", 1: " ", H: " " },
 		heightm: 1.33,
 		weightkg: 63.0,
 	},
-	bao: {
+	baovt: {
 		num: 10045,
 		name: "Bao",
 		types: ["Water"],
@@ -21558,6 +21558,27 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.33,
 		weightkg: 63.0,
 	},
+	rosiebellmoo: {
+		num: 10046,
+		name: "Rosie Bellmoo",
+		types: ["Fire"],
+		gender: "F",
+		baseStats: { hp: 65, atk: 71, def: 90, spa: 112, spd: 70, spe: 86 },
+		abilities: { 0: "Flash Fire", 1: " ", H: " " },
+		heightm: 1.33,
+		weightkg: 63.0,
+	},
+	ameliawatson: {
+		num: 10045,
+		name: "Amelia Watson",
+		types: ["Normal"],
+		gender: "F",
+		baseStats: { hp: 60, atk: 92, def: 50, spa: 40, spd: 60, spe: 97 },
+		abilities: { 0: " ", 1: " ", H: " " },
+		heightm: 1.33,
+		weightkg: 63.0,
+	},
+
 
 //note: make Anny's orange a held item. Do the same with other Vtuber's apparel
 

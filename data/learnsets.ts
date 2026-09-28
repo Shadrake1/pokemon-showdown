@@ -102377,7 +102377,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 		},
 	},
-	megalodonvt: {
+	megalodon: {
 		learnset: {
 
 
@@ -102389,7 +102389,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 		},
 	},
-	bao: {
+	baovt: {
 		learnset: {
 
 
@@ -102548,8 +102548,60 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	crelly: {
 		learnset: {
-
-
+			acid: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			acidarmor: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			acidspray: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			appleacid: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			attract: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			banefulbunker: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			belch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bellydrum: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bite: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bodypress: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bodyslam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			clearsmog: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			confuseray: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			corrosivegas: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			curse: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			entrainment: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fbomb: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			firstimpression: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			flash: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			gastroacid: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			gunkshot: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			haze: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			headbutt: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			healblock: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hiddenpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			highhorsepower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hornattack: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			horndrill: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hornleech: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			infestation: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			megahorn: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			poisonfang: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			poisongas: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			poisonjab: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			pounce: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			pound: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			protect: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			recycle: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			rest: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			selfdestruct: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			sleeptalk: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			sludge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			sludgebomb: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			sludgewave: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			smog: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			snore: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			strangesteam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			substitute: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			swallow: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			tackle: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			takedown: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			taunt: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			toxic: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			toxicspikes: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
 	shoomimi: {
@@ -102562,6 +102614,39 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 
 
+		},
+	},
+	rosiebellmoo: {
+		learnset: {
+			attract: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			burnup: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			counter: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			curse: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			drillrun: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			dynamicpunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			earthpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			ember: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			eruption: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			explosion: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fbomb: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fireblast: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			flameburst: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			flamecharge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			followme: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fusionflare: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hiddenpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			incinerate: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			inferno: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			protect: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			rest: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			rockblast: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			selfdestruct: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			skullbash: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			sleeptalk: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			snore: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			substitute: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			terablast: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hornattack: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
 

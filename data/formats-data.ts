@@ -6356,7 +6356,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	kosekibijou: {
 		tier: "Vtuber",
 	},
-	megalodonvt: {
+	megalodon: {
 		tier: "Vtuber",
 	},
 	gigimurin: {
@@ -6374,7 +6374,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	neuropede: {
 		tier: "Vtuber",
 	},
-	bao: {
+	baovt: {
 		tier: "Vtuber",
 	},
 	kokonuts: {
@@ -6387,6 +6387,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Vtuber",
 	},
 	amanekanata: {
+		tier: "Vtuber",
+	},
+	rosiebellmoo: {
 		tier: "Vtuber",
 	},
 

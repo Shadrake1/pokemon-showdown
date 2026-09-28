@@ -7703,4 +7703,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	//custom content
+	fbomb: {
+		name: "F-Bomb",
+		desc: "Has a 50% chance to lower the target's defense by 2 stages.",
+		shortDesc: "50% chance to lower the target's defense by 2 stages.",
+	},
 };
