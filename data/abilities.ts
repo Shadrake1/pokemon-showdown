@@ -5736,8 +5736,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 96,
 	},
 	temporalforce: {
+		onStart(source) {
+			this.field.setPseudoWeather('trickroom');
+		},
 		//summons trickroom on switch-in
-			shortDesc: "WIP, coming soon!",
+			shortDesc: "Sets Trick Room on switch-in",
 		flags: {},
 		name: "Temporal Force",
 		rating: 0,
