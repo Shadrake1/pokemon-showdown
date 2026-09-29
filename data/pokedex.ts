@@ -21207,7 +21207,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Gawr Gura",
 		types: ["Water"],
 		gender: "F",
-		baseStats: { hp: 65, atk: 120, def: 76, spa: 100, spd: 64, spe: 95 },
+		baseStats: { hp: 65, atk: 110, def: 76, spa: 100, spd: 64, spe: 95 },
 		abilities: { 0: "Atlantean Rage", 1: "Swift Swim", H: "Strong Jaw" }, //Atlantean Rage turns into Gura-Primal upon KOing an opponent
 		heightm: 1.05,
 		weightkg: 32.00,
@@ -21220,7 +21220,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		forme: "Primal",
 		types: ["Water"],
 		gender: "F",
-		baseStats: { hp: 65, atk: 140, def: 86, spa: 120, spd: 74, spe: 115 },
+		baseStats: { hp: 65, atk: 130, def: 86, spa: 120, spd: 74, spe: 115 },
 		abilities: { 0: "Atlantean Rage"},
 		heightm: 1.05,
 		weightkg: 32.00,
@@ -21451,10 +21451,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	megalodon: {
         num: 10033,
         name: "Megalodon",
-        types: ["Water", "Steel"], //Steel? Research
+        types: ["Water", "Rock"], //Steel? Mono water?
         gender: "F",
-        baseStats: { hp: 95, atk: 102, def: 90, spa: 70, spd: 60, spe: 90 },
-        abilities: { 0: "Swift Swim", 1: "Strong Jaw", H: " " }, //Primodial Sea?
+        baseStats: { hp: 85, atk: 112, def: 90, spa: 70, spd: 60, spe: 80 },
+        abilities: { 0: "Swift Swim", 1: "Marvel Scale", H: "Beads of Ruin" }, //Primodial Sea?, Damp, Hydration, Moxie
         heightm: 2.9,
         weightkg: 85.2,
     },
@@ -21473,7 +21473,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         name: "Zentreya",
         types: ["Steel", "Dragon"],
         gender: "F",
-        baseStats: { hp: 75, atk: 115, def: 100, spa: 105, spd: 70, spe: 55 },
+        baseStats: { hp: 75, atk: 115, def: 90, spa: 100, spd: 70, spe: 55 },
         abilities: { 0: "Dragonize", 1: " ", H: " " },
         heightm: 1.73,
         weightkg: 143.27,
@@ -21481,7 +21481,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	minatoaqua: {
         num: 10038,
         name: "Minato Aqua",
-        types: ["Normal"],
+        types: ["Water"],
         gender: "F",
         baseStats: { hp: 70, atk: 85, def: 70, spa: 95, spd: 80, spe: 90 },
         abilities: { 0: "Klutz", 1: "Sniper", H: "Screen Cleaner" },
@@ -21531,11 +21531,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	shoomimi: {
         num: 10043,
         name: "Shoomimi",
-        types: ["Psychic"],
+        types: ["Steel"],
         gender: "F",
         baseStats: { hp: 50, atk: 66, def: 84, spa: 105, spd: 90, spe: 85 },
         abilities: { 0: " ", 1: " ", H: " " },
-        heightm: 1.33,
+        heightm: 1.55,
         weightkg: 63.0,
 	},
 	amanekanata: {
@@ -21550,7 +21550,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	baovt: {
 		num: 10045,
-		name: "Bao",
+		name: "BaoVT",
 		types: ["Water"],
 		gender: "F",
 		baseStats: { hp: 90, atk: 70, def: 80, spa: 90, spd: 80, spe: 40 },
@@ -21564,7 +21564,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fire"],
 		gender: "F",
 		baseStats: { hp: 65, atk: 71, def: 90, spa: 112, spd: 70, spe: 86 },
-		abilities: { 0: "Flash Fire", 1: " ", H: " " },
+		abilities: { 0: "Flash Fire", 1: "Blaze", H: "Solar Power" },
 		heightm: 1.33,
 		weightkg: 63.0,
 	},

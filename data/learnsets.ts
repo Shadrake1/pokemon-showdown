@@ -102379,7 +102379,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	megalodon: {
 		learnset: {
-
+			attract: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			liquidation: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 
 		},
 	},
@@ -102391,7 +102392,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	baovt: {
 		learnset: {
-
+			attract: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 
 		},
 	},
@@ -102611,6 +102612,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 	amanekanata: {
+		learnset: {
+
+
+		},
+	},
+	ameliawatson: {
 		learnset: {
 
 

@@ -7709,4 +7709,39 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 50% chance to lower the target's defense by 2 stages.",
 		shortDesc: "50% chance to lower the target's defense by 2 stages.",
 	},
+	multiheart: {
+		name: "Multi-heart",
+		desc: "HHits 1-7 times. Each hit has a 30% chance to lower attack.",
+		shortDesc: "HHits 1-7 times. Each hit has a 30% chance to lower attack.",
+	},
+	harpooning: {
+		name: "Harpooning",
+		desc: "On hit, prevents the target from switching.",
+		shortDesc: "On hit, prevents the target from switching.",
+	},
+	harpoonstorm: {
+		name: "Harpoon Storm",
+		desc: "User's special attack decreases by 2 stages.",
+		shortDesc: "User's special attack decreases by 2 stages.",
+	},
+	metalpipes: {
+		name: "Metal Pipes",
+		desc: "30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	},
+	gaslight: {
+		name: "Gaslight",
+		desc: "60% chance to make the target confused.",
+		shortDesc: "60% chance to make the target confused.",
+	},
+	spidercooking: {
+		name: "Spider Cooking",
+		desc: "30% chance to poison the target.",
+		shortDesc: "30% chance to poison the target.",
+	},
+	karaoke: {
+		name: "Karaoke",
+		desc: "Raises the user's attack and special attack, lowers the opponents attack and special attack.",
+		shortDesc: "Raises the user's atk and spatk, lowers the opponents atk and spatk.",
+	},
 };
