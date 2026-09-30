@@ -21531,9 +21531,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	shoomimi: {
         num: 10043,
         name: "Shoomimi",
-        types: ["Steel"],
+        types: ["Steel"], //Psychic instead?
         gender: "F",
-        baseStats: { hp: 50, atk: 66, def: 84, spa: 105, spd: 90, spe: 85 },
+        baseStats: { hp: 50, atk: 66, def: 94, spa: 105, spd: 90, spe: 85 },
         abilities: { 0: " ", 1: " ", H: " " },
         heightm: 1.55,
         weightkg: 63.0,
@@ -21543,8 +21543,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Amane Kanata",
 		types: ["Flying"],
 		gender: "F",
-		baseStats: { hp: 60, atk: 111, def: 73, spa: 105, spd: 75, spe: 81 },
-		abilities: { 0: " ", 1: " ", H: " " },
+		baseStats: { hp: 60, atk: 55, def: 83, spa: 105, spd: 75, spe: 91 },
+		abilities: { 0: "Forewarn", 1: "Gale Wings", H: "Huge Power" },
 		heightm: 1.33,
 		weightkg: 63.0,
 	},
@@ -21577,6 +21577,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		abilities: { 0: " ", 1: " ", H: " " },
 		heightm: 1.33,
 		weightkg: 63.0,
+	},
+	akumanihmune: {
+		num: 10045,
+		name: "Akuma Nihmune",
+		types: ["Dark", "Fire"],
+		gender: "F",
+		baseStats: { hp: 120, atk: 88, def: 75, spa: 88, spd: 65, spe: 70 },
+		abilities: { 0: "Stamina", 1: " ", H: " " },
+		heightm: 2.48,
+		weightkg: 100.0,
 	},
 
 

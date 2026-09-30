@@ -6395,6 +6395,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ameliawatson: {
 		tier: "Vtuber",
 	},
+	akumanihmune: {
+		tier: "Vtuber",
+	},
 
 //not vtubers
 	sixln: {
