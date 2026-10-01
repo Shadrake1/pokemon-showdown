@@ -5720,20 +5720,50 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 98,
 	},
 	chaosincarnation: {
-		//Gains a random ability (minus certain ones like Wonder Guard) on switch-in
-			shortDesc: "WIP, coming soon!",
-		flags: {},
-		name: "Chaos Incarnation",
-		rating: 0,
-		num: 97,
+	  onStart(pokemon) {
+	      if (pokemon.hasItem('Ability Shield')) {
+		         this.add('-block', pokemon, 'item: Ability Shield');
+		         return;
+		     }
+	
+	      // ============================================================
+	      // EXCLUSION LIST — add ability IDs here to remove from the pool
+	      // ============================================================
+	      const excluded: Set<string> = new Set([
+		         'chaosincarnation', // can't roll itself
+		         // 'wonderguard',   // example — uncomment to exclude Wonder Guard
+		     ]);
+
+		     const abilities = this.dex.abilities.all().filter(ability =>
+		         !ability.isNonstandard &&       // exclude Past/CAP/etc.
+		        !ability.flags['notrace'] &&    // exclude untraceable abilities (Wonder Guard, Neutralizing Gas, form-change abilities, etc.)
+		        ability.id !== 'noability' &&   // exclude No Ability
+		        !excluded.has(ability.id)       // exclude hardcoded list above
+		    );
+
+		     if (!abilities.length) return;
+
+		     const newAbility = this.sample(abilities);
+		     this.add('-activate', pokemon, 'ability: Chaos Incarnation');
+		     pokemon.setAbility(newAbility.id);
+	  },
+	  flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
+	  name: "Chaos Incarnation",
+	  shortDesc: "Changes to a random ability on switch-in.",
+	  rating: 3,
+	   num: 97,
 	},
 	gravitationalforce: {
-		//summons Gravity on switch-in
-			shortDesc: "WIP, coming soon!",
-		flags: {},
-		name: "Gravitational Force",
-		rating: 0,
-		num: 96,
+	   onStart(source) {
+		     // Only activate if Gravity is not already active
+		     if (this.field.pseudoWeather['gravity']) return;
+		     this.field.addPseudoWeather('gravity', source);
+	  },
+	   flags: {},
+	   name: "Gravitational Force",
+	   shortDesc: "Summons Gravity on switch-in.",
+	   rating: 4,
+	   num: 96,
 	},
 	temporalforce: {
 		 onStart(source) {
@@ -5748,15 +5778,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	   num: 95,
 	},
 	repopulate: {
-		//innate leftovers effect
-			shortDesc: "WIP, coming soon!",
-		flags: {},
-		name: "Repopulate",
-		rating: 0,
-		num: 94,
+	    onResidualOrder: 5,
+	   onResidualSubOrder: 4,
+	   onResidual(pokemon) {
+	       this.heal(pokemon.baseMaxhp / 16);
+	   },
+	   flags: {},
+	   name: "Repopulate",
+	   shortDesc: "Heals 1/16 max HP at the end of each turn.",
+	   rating: 2,
+	   num: 94,
 	},
 	soulreaper: {
-		// physical moves have an x% chance to instakill (500x damage)
+		// physical moves have an x% chance to instakill (+ 1000 damage, ignores modifiers)
 			shortDesc: "WIP, coming soon!",
 		flags: {},
 		name: "Soul Reaper",
