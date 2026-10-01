@@ -21466,7 +21466,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 90,
 		basePower: 0,
 			damageCallback(pokemon) {
-				return (this.random(20, 120);
+				return (this.random(20, 120)
 			},
 		category: "Special",
 		name: "Lucky Dice",
