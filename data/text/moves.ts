@@ -7707,12 +7707,12 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	fbomb: {
 		name: "F-Bomb",
 		desc: "Has a 50% chance to lower the target's defense by 2 stages.",
-		shortDesc: "50% chance to lower the target's defense by 2 stages.",
+		shortDesc: "50% chance opponent's defense -2 stages.",
 	},
 	multiheart: {
 		name: "Multi-heart",
 		desc: "HHits 1-7 times. Each hit has a 30% chance to lower attack.",
-		shortDesc: "HHits 1-7 times. Each hit has a 30% chance to lower attack.",
+		shortDesc: "HHits 1-7 times. 30% chance to lower attack.",
 	},
 	harpooning: {
 		name: "Harpooning",
@@ -7742,7 +7742,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	karaoke: {
 		name: "Karaoke",
 		desc: "Raises the user's attack and special attack, lowers the opponents attack and special attack.",
-		shortDesc: "Raises the user's atk and spatk, lowers the opponents atk and spatk.",
+		shortDesc: "+1 atk & spa, opponent -1 atk & spa.",
 	},
 	timestop: {
 		name: "Time Stop",
@@ -7752,6 +7752,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	luckydice: {
 		name: "Lucky Dice",
 		desc: "Power varies between 20 and 120. 20% chance to inflict disable, taunt, encore, heal block, and torment. Each effect has an individual chance.",
-		shortDesc: "Power varies. 20% chance each to inflict five different effects, rolled seperately.",
+		shortDesc: "Power varies. Can inflict 5 different statuse conditions",
 	},
 };

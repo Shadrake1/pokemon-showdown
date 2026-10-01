@@ -5720,38 +5720,38 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 98,
 	},
 	chaosincarnation: {
-	  onStart(pokemon) {
-	      if (pokemon.hasItem('Ability Shield')) {
-		         this.add('-block', pokemon, 'item: Ability Shield');
-		         return;
-		     }
-	
-	      // ============================================================
-	      // EXCLUSION LIST — add ability IDs here to remove from the pool
-	      // ============================================================
-	      const excluded: Set<string> = new Set([
-		         'chaosincarnation', // can't roll itself
-		         // 'wonderguard',   // example — uncomment to exclude Wonder Guard
-		     ]);
+		onStart(pokemon) {
+			if (pokemon.hasItem('Ability Shield')) {
+				this.add('-block', pokemon, 'item: Ability Shield');
+				return;
+			}
 
-		     const abilities = this.dex.abilities.all().filter(ability =>
-		         !ability.isNonstandard &&       // exclude Past/CAP/etc.
-		        !ability.flags['notrace'] &&    // exclude untraceable abilities (Wonder Guard, Neutralizing Gas, form-change abilities, etc.)
-		        ability.id !== 'noability' &&   // exclude No Ability
-		        !excluded.has(ability.id)       // exclude hardcoded list above
-		    );
+			// ============================================================
+			// EXCLUSION LIST — add ability IDs here to remove from the pool
+			// ============================================================
+			const excluded: Set<string> = new Set([
+				'chaosincarnation', // can't roll itself
+				// 'wonderguard',   // example — uncomment to exclude Wonder Guard
+			]);
 
-		     if (!abilities.length) return;
+			const abilities = this.dex.abilities.all().filter(ability =>
+				!ability.isNonstandard &&       // exclude Past/CAP/etc.
+				!ability.flags['notrace'] &&    // exclude untraceable abilities (Wonder Guard, Neutralizing Gas, form-change abilities, etc.)
+				ability.id !== 'noability' &&   // exclude No Ability
+				!excluded.has(ability.id)       // exclude hardcoded list above
+			);
 
-		     const newAbility = this.sample(abilities);
-		     this.add('-activate', pokemon, 'ability: Chaos Incarnation');
-			  pokemon.setAbility(newAbility.id, pokemon)
-	  },
-	  flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
-	  name: "Chaos Incarnation",
-	  shortDesc: "Changes to a random ability on switch-in.",
-	  rating: 3,
-	   num: 97,
+			if (!abilities.length) return;
+
+			const newAbility = this.sample(abilities);
+			this.add('-ability', pokemon, newAbility.name, '[from] ability: Chaos Incarnation', `[of] ${pokemon}`);
+			pokemon.setAbility(newAbility.id); // no source — handles game state only, silently
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
+		name: "Chaos Incarnation",
+		shortDesc: "Changes to a random ability on switch-in.",
+		rating: 3,
+		num: 97,
 	},
 	gravitationalforce: {
 	   onStart(source) {
