@@ -21461,22 +21461,41 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Normal",
 		contestType: "Beautiful",
 	},
-		luckydice: {
+	luckydice: {
 		num: 991,
 		accuracy: 90,
 		basePower: 0,
-			damageCallback(pokemon) {
-				return (this.random(20, 120)
-			},
+		basePowerCallback(pokemon, target) {
+			return this.random(20, 121); // 20–120 inclusive
+		},
 		category: "Special",
 		name: "Lucky Dice",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
-		secondary: {
-			chance: 20,
-			volatileStatus: 'taunt',
-		},
+		secondaries: [
+			{
+				chance: 20,
+				volatileStatus: 'disable',
+			},
+			{
+				chance: 20,
+				volatileStatus: 'taunt',
+			},
+			{
+				chance: 20,
+				volatileStatus: 'encore',
+			},
+			{
+				chance: 20,
+				volatileStatus: 'healblock',
+			},
+			{
+				chance: 20,
+				volatileStatus: 'torment',
+			},
+		],
+		target: "normal",
 		type: "Psychic",
 		contestType: "Beautiful",
 	},
