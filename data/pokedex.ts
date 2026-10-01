@@ -21247,16 +21247,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.05,
 		weightkg: 32.00,
 	},
-	chiurunika: {  // by Shadrake
-		num: 10013,
-		name: "Chiuru Nika",
-		types: ["Normal"],
-		gender: "F",
-		baseStats: { hp: 58, atk: 59, def: 63, spa: 50, spd: 70, spe: 111 },
-		abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Misty Surge" },
-		heightm: 1.00,
-		weightkg: 30.00,
-	},
 	moricaliope: {  // by Shadrake
 		num: 10014,
 		name: "Mori Caliope",
@@ -21569,7 +21559,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 63.0,
 	},
 	ameliawatson: {
-		num: 10045,
+		num: 10047,
 		name: "Amelia Watson",
 		types: ["Normal"],
 		gender: "F",
@@ -21579,15 +21569,26 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 63.0,
 	},
 	akumanihmune: {
-		num: 10045,
+		num: 10048,
 		name: "Akuma Nihmune",
 		types: ["Dark", "Fire"],
 		gender: "F",
-		baseStats: { hp: 120, atk: 88, def: 75, spa: 88, spd: 65, spe: 70 },
+		baseStats: { hp: 110, atk: 88, def: 75, spa: 88, spd: 65, spe: 70 },
 		abilities: { 0: "Stamina", 1: " ", H: " " },
 		heightm: 2.48,
 		weightkg: 100.0,
 	},
+	chiurunika: {  // by Shadrake
+		num: 10013,
+		name: "Chiuru Nika",
+		types: ["Normal"],
+		gender: "F",
+		baseStats: { hp: 58, atk: 59, def: 63, spa: 50, spd: 70, spe: 111 },
+		abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Misty Surge" },
+		heightm: 1.00,
+		weightkg: 30.00,
+	},
+//Watame , Kiryu Coco, Miyune?, Nenechi, Suisei, Chroniko, Pipkin Pippa, Tenma, 
 
 
 //note: make Anny's orange a held item. Do the same with other Vtuber's apparel
