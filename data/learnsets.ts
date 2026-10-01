@@ -102412,11 +102412,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	kyarashard: {
 		learnset: {
 			assist: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			aurasphere: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			aurorabeam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			bestow: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			blueflare: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			bodyslam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			celebrate: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			charm: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},

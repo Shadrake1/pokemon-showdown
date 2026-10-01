@@ -21461,6 +21461,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Normal",
 		contestType: "Beautiful",
 	},
+		luckydice: {
+		num: 991,
+		accuracy: 90,
+		basePower: 0,
+			damageCallback(pokemon) {
+				return (this.random(20, 120);
+			},
+		category: "Special",
+		name: "Lucky Dice",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 20,
+			volatileStatus: 'taunt',
+		},
+		type: "Psychic",
+		contestType: "Beautiful",
+	},
 	//time leap, switches out and attacks in future, cutting type (150 damage?)
-	//Lucky Dice
+	//Lucky Dice (random power, high crit chance?)
 };

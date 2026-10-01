@@ -7744,4 +7744,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Raises the user's attack and special attack, lowers the opponents attack and special attack.",
 		shortDesc: "Raises the user's atk and spatk, lowers the opponents atk and spatk.",
 	},
+	timestop: {
+		name: "Time Stop",
+		desc: "Freezes the opponent.",
+		shortDesc: "Freezes the opponent.",
+	},
+	luckydice: {
+		name: "Lucky Dice",
+		desc: "Power varies between 20 and 120. 20% chance to inflict disable, taunt, encore, heal block, and torment. Each effect has an individual chance.",
+		shortDesc: "Power varies. 20% chance each to inflict five different effects, rolled seperately.",
+	},
 };
