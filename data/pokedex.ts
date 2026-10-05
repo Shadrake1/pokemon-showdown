@@ -21270,13 +21270,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	haachama: {  // by Shadrake
 		num: 10016,
 		name: "Haachama",
+		baseSpecies: "Akai Haato",
+		forme: "Other",
 		types: ["Poison"],
 		gender: "F",
-		baseStats: { hp: 80, atk: 95, def: 84, spa: 85, spd: 86, spe: 88 },
+		baseStats: { hp: 80, atk: 95, def: 84, spa: 85, spd: 86, spe: 78 },
 		abilities: { 0: "Sheer Force", 1: "Poison Puppeteer", H: "Toxic Debris" }, //Vessel of Ruin?
 		heightm: 1.30,
 		weightkg: 55.05,
 		requiredItem: "Spider Pot",
+		changesFrom: "Akai Haato"
 	},
 	akaihaato: {  // by Shadrake
 		num: 10017,
@@ -21287,6 +21290,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		abilities: { 0: "Magic Guard", 1: "Fairy Aura", H: "Pixelate" },
 		heightm: 1.30,
 		weightkg: 55.05,
+		otherFormes: ["Haachama"],
+		formeOrder: ["Akai haato", "Haachama"],
 	},
 	inugamikorone: {  // by Shadrake
 		num: 10018,
@@ -21424,7 +21429,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         types: ["Fairy", "Ghost"],
         gender: "F",
         baseStats: { hp: 90, atk: 40, def: 90, spa: 70, spd: 90, spe: 90 },
-        abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Insomnia" }, //Pixelate, Trace, Quick Draw
+        abilities: { 0: "Cute Charm", 1: "Bad Dreams", H: "Insomnia" }, //
         heightm: 1.35,
         weightkg: 50,
     },

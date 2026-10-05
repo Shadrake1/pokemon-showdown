@@ -7711,7 +7711,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	multiheart: {
 		name: "Multi-heart",
-		desc: "HHits 1-7 times. Each hit has a 30% chance to lower attack.",
+		desc: "Hits 1-7 times. Each hit has a 30% chance to lower attack.",
 		shortDesc: "HHits 1-7 times. 30% chance to lower attack.",
 	},
 	harpooning: {
@@ -7752,6 +7752,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	luckydice: {
 		name: "Lucky Dice",
 		desc: "Power varies between 20 and 120. 20% chance to inflict disable, taunt, encore, heal block, and torment. Each effect has an individual chance.",
-		shortDesc: "Power varies. Can inflict 5 different statuse conditions",
+		shortDesc: "Power varies. Can inflict 5 different status conditions",
 	},
 };

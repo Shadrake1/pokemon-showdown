@@ -5798,11 +5798,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 93,
 	},
 	twinsync: {
-		// //Twin sync multiplies their damage by 0.75x, but all attacks hit twice
-			shortDesc: "WIP, coming soon!",
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
+				move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
+			move.multihit = 2;
+			move.multihitType = 'twinsync';
+		},
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'twinsync' && move.id === 'secretpower' && move.hit < 2) {
+				// prevent accidentally suppressing King's Rock/Razor Fang on hit 1
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
 		flags: {},
 		name: "Twin Sync",
-		rating: 0,
+		shortDesc: "Attacking moves hit twice; both hits deal 0.75x damage.",
+		rating: 4,
 		num: 92,
 	},
 };

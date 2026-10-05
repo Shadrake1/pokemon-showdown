@@ -8178,4 +8178,43 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	// Custom content
+	// vtubers
+	spiderpot: {
+		name: "Spider pot",
+		// spritenum: 4,
+		fling: {
+			basePower: 60,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (user.baseSpecies.num === 10016 && (move.type === 'Poison') {
+				return this.chainModify([4915, 4096]); // change this to whatever poison is
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (source?.baseSpecies.num === 10016 || pokemon.baseSpecies.num === 10016) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Haachama",
+		itemUser: ["Haachama"],
+		num: -3,
+		gen: 4,
+	},
+
+	// custom megas
+	glaceonite: {
+		name: "Glaceonite",
+		// spritenum: 576,
+		megaStone: { "Glaceon": "Glaceon-Mega" },
+		itemUser: ["Glaceon"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: -4,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 };
