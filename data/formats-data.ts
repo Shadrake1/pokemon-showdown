@@ -6254,6 +6254,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	//custom megas
+	glaceonmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	//vtubers
 	neurosama: {
 		tier: "Vtuber",
 	},
