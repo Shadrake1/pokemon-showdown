@@ -8188,7 +8188,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (user.baseSpecies.num === 10016 && (move.type === 'Poison') {
+			if (user.baseSpecies.num === 10016 && (move.type === 'Poison')) {
 				return this.chainModify([4915, 4096]); // change this to whatever poison is
 			}
 		},
